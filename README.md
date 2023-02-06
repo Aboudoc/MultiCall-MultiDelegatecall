@@ -17,7 +17,7 @@
 <h3 align="center">Multi Call and Multi Delegatecall</h3>
 
   <p align="center">
-    Aggregate multi-queries into a single function call/delegateCall
+    Aggregate multi-queries into a single function call/delegatecall
     <br />
     <a href="https://github.com/Aboudoc/Multicall-MultiDelegatecall"><strong>Explore the docs »</strong></a>
     <br />
