@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Aboudoc/Bypass-contract-size.git">
-    <img src="images/logo.png" alt="Logo" width="80" height="100">
+    <img src="images/logo.png" alt="Logo" width="100" height="80">
   </a>
 
 <h3 align="center">Multi Call and Multi Delegatecall</h3>
