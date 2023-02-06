@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Aboudoc/Bypass-contract-size.git">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="100">
   </a>
 
 <h3 align="center">Multi Call and Multi Delegatecall</h3>
@@ -143,6 +143,12 @@ Let's say you need to call two functions in a smart contract. You will need to s
 `MultiDelegatecall` is a handy smart contract that enables a contract to execute multiple functions in a single transaction.
 
 In opposition with `call`, `delegatecall` allows to preserve the context (for example `msg.sender`)
+
+## Multi Delegatecall Vulnerability
+
+`MultiDelegatecall` can be a dangerous contract to add to other contract.
+
+In this example, we can increase the balance several times by using `MultiDelegatecall` on `mint()`
 
 ### Further reading
 
