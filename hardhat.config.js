@@ -6,7 +6,7 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY
 
 module.exports = {
     solidity: {
-        compilers: [{ version: "0.8.0" }, { version: "0.8.10" }],
+        compilers: [{ version: "0.8.0" }, { version: "0.8.10" }, { version: "0.8.17" }],
     },
     dafaultNetwork: "hardhat",
     networks: {
