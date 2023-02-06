@@ -142,6 +142,8 @@ Let's say you need to call two functions in a smart contract. You will need to s
 
 `MultiDelegatecall` is a handy smart contract that enables a contract to execute multiple functions in a single transaction.
 
+In opposition with `call`, `delegatecall` allows to preserve the context (for example `msg.sender`)
+
 ### Further reading
 
 To learn more check this [MakerDAO's repo](https://github.com/makerdao/multicall)
